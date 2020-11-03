@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mmiOaMI64nC1U8jfA8PPNcivfLrMUnovM7LBkSZ0KkOW8BzdfoGRzwQ+GCRcW3j4FceaCnxm2d0YzVlj1nKkHw==",
+  "success": true,
+  "projectFilePath": "C:\\workspace\\NerdStore\\src\\NerdStore.Core\\NerdStore.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jones\\.nuget\\packages\\fluentvalidation\\9.2.2\\fluentvalidation.9.2.2.nupkg.sha512",
+    "C:\\Users\\Jones\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

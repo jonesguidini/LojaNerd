@@ -1,0 +1,17 @@
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.deps.json
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.runtimeconfig.json
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.runtimeconfig.dev.json
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.dll
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.pdb
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.dll
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Core.dll
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Catalogo.Domain.pdb
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\bin\Debug\netcoreapp3.1\NerdStore.Core.pdb
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.csprojAssemblyReference.cache
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.AssemblyInfoInputs.cache
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.AssemblyInfo.cs
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.csproj.CoreCompileInputs.cache
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.csproj.CopyComplete
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.dll
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.pdb
+C:\workspace\NerdStore\NerdStore.Catalogo.Data\obj\Debug\netcoreapp3.1\NerdStore.Catalogo.Data.genruntimeconfig.cache

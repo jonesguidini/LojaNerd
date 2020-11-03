@@ -1,0 +1,12 @@
+C:\workspace\NerdStore\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.deps.json
+C:\workspace\NerdStore\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.dll
+C:\workspace\NerdStore\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.pdb
+C:\workspace\NerdStore\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp3.1\NerdStore.Core.dll
+C:\workspace\NerdStore\src\NerdStore.Vendas.Domain\bin\Debug\netcoreapp3.1\NerdStore.Core.pdb
+C:\workspace\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.csprojAssemblyReference.cache
+C:\workspace\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.AssemblyInfoInputs.cache
+C:\workspace\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.AssemblyInfo.cs
+C:\workspace\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.csproj.CoreCompileInputs.cache
+C:\workspace\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.csproj.CopyComplete
+C:\workspace\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.dll
+C:\workspace\NerdStore\src\NerdStore.Vendas.Domain\obj\Debug\netcoreapp3.1\NerdStore.Vendas.Domain.pdb
