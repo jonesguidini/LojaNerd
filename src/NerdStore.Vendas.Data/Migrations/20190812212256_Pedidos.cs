@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace NerdStore.Vendas.Data.Migrations
 {
-    public partial class Pedido : Migration
+    public partial class Pedidos : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

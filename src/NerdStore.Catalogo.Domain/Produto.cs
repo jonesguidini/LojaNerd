@@ -61,12 +61,10 @@ namespace NerdStore.Catalogo.Domain
             Descricao = descricao;
         }
 
-        public void DebigarEstoque(int quantidade)
+        public void DebitarEstoque(int quantidade)
         {
-            // caso o numero informado seja negativo aqui invertemos ele p positivo
             if (quantidade < 0) quantidade *= -1;
             if (!PossuiEstoque(quantidade)) throw new DomainException("Estoque insuficiente");
-
             QuantidadeEstoque -= quantidade;
         }
 

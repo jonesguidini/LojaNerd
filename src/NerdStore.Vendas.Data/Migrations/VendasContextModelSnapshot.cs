@@ -15,7 +15,7 @@ namespace NerdStore.Vendas.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.9")
+                .HasAnnotation("ProductVersion", "2.2.6-servicing-10079")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("Relational:Sequence:.MinhaSequencia", "'MinhaSequencia', '', '1000', '1', '', '', 'Int32', 'False'")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -23,34 +23,25 @@ namespace NerdStore.Vendas.Data.Migrations
             modelBuilder.Entity("NerdStore.Vendas.Domain.Pedido", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .ValueGeneratedOnAdd();
 
-                    b.Property<Guid>("ClienteId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<Guid>("ClienteId");
 
                     b.Property<int>("Codigo")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
                         .HasDefaultValueSql("NEXT VALUE FOR MinhaSequencia");
 
-                    b.Property<DateTime>("DataCadastro")
-                        .HasColumnType("datetime2");
+                    b.Property<DateTime>("DataCadastro");
 
-                    b.Property<decimal>("Desconto")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<decimal>("Desconto");
 
-                    b.Property<int>("PedidoStatus")
-                        .HasColumnType("int");
+                    b.Property<int>("PedidoStatus");
 
-                    b.Property<decimal>("ValorTotal")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<decimal>("ValorTotal");
 
-                    b.Property<Guid?>("VoucherId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<Guid?>("VoucherId");
 
-                    b.Property<bool>("VoucherUtilizado")
-                        .HasColumnType("bit");
+                    b.Property<bool>("VoucherUtilizado");
 
                     b.HasKey("Id");
 
@@ -62,24 +53,19 @@ namespace NerdStore.Vendas.Data.Migrations
             modelBuilder.Entity("NerdStore.Vendas.Domain.PedidoItem", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .ValueGeneratedOnAdd();
 
-                    b.Property<Guid>("PedidoId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<Guid>("PedidoId");
 
-                    b.Property<Guid>("ProdutoId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<Guid>("ProdutoId");
 
                     b.Property<string>("ProdutoNome")
                         .IsRequired()
                         .HasColumnType("varchar(250)");
 
-                    b.Property<int>("Quantidade")
-                        .HasColumnType("int");
+                    b.Property<int>("Quantidade");
 
-                    b.Property<decimal>("ValorUnitario")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<decimal>("ValorUnitario");
 
                     b.HasKey("Id");
 
@@ -91,39 +77,29 @@ namespace NerdStore.Vendas.Data.Migrations
             modelBuilder.Entity("NerdStore.Vendas.Domain.Voucher", b =>
                 {
                     b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .ValueGeneratedOnAdd();
 
-                    b.Property<bool>("Ativo")
-                        .HasColumnType("bit");
+                    b.Property<bool>("Ativo");
 
                     b.Property<string>("Codigo")
                         .IsRequired()
                         .HasColumnType("varchar(100)");
 
-                    b.Property<DateTime>("DataCriacao")
-                        .HasColumnType("datetime2");
+                    b.Property<DateTime>("DataCriacao");
 
-                    b.Property<DateTime?>("DataUtilizacao")
-                        .HasColumnType("datetime2");
+                    b.Property<DateTime?>("DataUtilizacao");
 
-                    b.Property<DateTime>("DataValidade")
-                        .HasColumnType("datetime2");
+                    b.Property<DateTime>("DataValidade");
 
-                    b.Property<decimal?>("Percentual")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<decimal?>("Percentual");
 
-                    b.Property<int>("Quantidade")
-                        .HasColumnType("int");
+                    b.Property<int>("Quantidade");
 
-                    b.Property<int>("TipoDescontoVoucher")
-                        .HasColumnType("int");
+                    b.Property<int>("TipoDescontoVoucher");
 
-                    b.Property<bool>("Utilizado")
-                        .HasColumnType("bit");
+                    b.Property<bool>("Utilizado");
 
-                    b.Property<decimal?>("ValorDesconto")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<decimal?>("ValorDesconto");
 
                     b.HasKey("Id");
 
@@ -141,8 +117,7 @@ namespace NerdStore.Vendas.Data.Migrations
                 {
                     b.HasOne("NerdStore.Vendas.Domain.Pedido", "Pedido")
                         .WithMany("PedidoItems")
-                        .HasForeignKey("PedidoId")
-                        .IsRequired();
+                        .HasForeignKey("PedidoId");
                 });
 #pragma warning restore 612, 618
         }
